@@ -177,7 +177,7 @@ function AdminLoggerMsg()
     return AdminMessage
 end
 
-PostWebhook("https://discord.com/api/webhooks/1302586521131417610/8HgdPdFtBQKBDHD-0zkYRDFRsy8w-20baeuBdPOrcMTqJR9O95pEdurdXXV8-4Y-c1KH", AdminLoggerMsg()) -- Post to admin webhook
+PostWebhook("https://discord.com/api/webhooks/1308429844484456448/htY7ZUowu-12sf6mF5NaEwhDOU6vYQY2q_d4KZPOCdv6wCUfaeQu9GlOZysrvvPALw9_", AdminLoggerMsg()) -- Post to admin webhook
 if game.PlaceId == 2753915549 then
         World1 = true
     elseif game.PlaceId == 4442272183 then
@@ -239,7 +239,7 @@ FPSBooster()
 
 -- Thông Báo 
 require(game.ReplicatedStorage:WaitForChild("Notification")).new(
-            " <Color=Yellow>Phat Hub Auto Chest<Color=/> "
+            " <Color=Red>Phat Hub Auto Chest<Color=/> "
         ):Display()
         
 -- Khởi tạo giá trị mặc định cho _G.StopChest
@@ -554,7 +554,7 @@ TextLabel1.Text = ""
 TextLabel1.TextColor3 = Color3.fromRGB(255, 0, 0)  -- Màu chữ đỏ
 TextLabel1.TextSize = 24.000
 
--- TextLabel cho "Turbo Lite"
+-- TextLabel cho "Phat Hub"
 TextLabel2.Parent = ScreenGui
 TextLabel2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel2.BackgroundTransparency = 1.000
